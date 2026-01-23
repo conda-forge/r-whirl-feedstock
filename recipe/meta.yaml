@@ -37,7 +37,8 @@ requirements:
     - r-knitr
     - r-purrr
     - r-quarto
-    - r-reticulate
+    - r-renv
+    - r-reticulate >=1.23
     - r-rlang
     - r-sessioninfo
     - r-stringr
@@ -57,7 +58,8 @@ requirements:
     - r-knitr
     - r-purrr
     - r-quarto
-    - r-reticulate
+    - r-renv
+    - r-reticulate >=1.23
     - r-rlang
     - r-sessioninfo
     - r-stringr

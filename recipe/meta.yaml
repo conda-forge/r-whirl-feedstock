@@ -1,4 +1,4 @@
-{% set version = "0.3.2" %}
+{% set version = "0.3.3" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/whirl_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/whirl/whirl_{{ version }}.tar.gz
-  sha256: ffe71353ad521efe99d8fc48bd367efd25add02b25f78c41c415f5d98ef19165
+  sha256: 4e906e0240b61bd5318a5e1bf313759917b21c5fc0c7f33667ddd5adfcb95603
 
 build:
   number: 0
